@@ -125,6 +125,8 @@ your response to factor when you are working on a classification project.
 
 The below figure shows the best five ROC_AUC values for Decision tree model.
 
+![Decision_Tree_best_roc_auc](https://github.com/samugarivishnupriya/Retail/assets/85831285/ae6db5ad-ad8b-4a39-89dd-1e7748e89e75)
+
 ### *Random Forest*
 Decision trees are very good at capturing non-linear patterns in the data. That's a good thing about them and
 a bad thing about them as well. Good because well, they can capture non-linear patterns
@@ -192,11 +194,15 @@ combination which performs best.
 
 The below figure shows the best five ROC_AUC values for Random Forest model.
 
+![Random_forest_best_auc_roc](https://github.com/samugarivishnupriya/Retail/assets/85831285/2684a61c-a54d-4a60-90a9-1ec76a81348f)
 
 ### *XGBoost*
 XGBoost is an implementation of Gradient Boosted decision trees. In this algorithm, decision trees are created in sequential form. Weights play an important role in XGBoost. Weights are assigned to all the independent variables which are then fed into the decision tree which predicts results. The weight of variables predicted wrong by the tree is increased and these variables are then fed to the second decision tree. These individual classifiers/predictors then ensemble to give a strong and more precise model. It can work on regression, classification, ranking, and user-defined prediction problems.
 
 The below figure shows the best five ROC_AUC values for XGBoost model.
+
+![XGBoost_best_roc_auc](https://github.com/samugarivishnupriya/Retail/assets/85831285/d3bcf0ec-e1dd-40ac-a275-fd61777599bf)
+
 
 ### STEP-5 : Prediction
 Now we compare the ROC_AUC values for all the models which we have implemented.
@@ -206,10 +212,10 @@ Now we compare the ROC_AUC values for all the models which we have implemented.
 | Random Forest | 0.84574 |
 | XGBoost | 0.73207 |
 
- For this project, XGBoost has given the best results of the largest ROC_AUC value of `0.84574` when compared to others. As we know more the ROC_AUC value better the model is. We have done prediction by using `Trained Random Forest`.
+ For this project, XGBoost has given the best results of the largest ROC_AUC value of `0.84574` when compared to others. As we know more the ROC_AUC value better the model is. We have done prediction by using `Trained Random Forest model`.
 
 
 ### References
 1. [https://www.geeksforgeeks.org/random-forest-approach-in-r-programming/](https://www.geeksforgeeks.org/random-forest-approach-in-r-programming/)
-2.[https://www.statology.org/random-forest-in-r/](https://www.statology.org/random-forest-in-r/)
+2. [https://www.statology.org/random-forest-in-r/](https://www.statology.org/random-forest-in-r/)
 3. [https://drive.google.com/file/d/1nvwO4m6kOkGIg0zafzz3WS8-xJYYe0On/view?usp=sharing](https://drive.google.com/file/d/1nvwO4m6kOkGIg0zafzz3WS8-xJYYe0On/view?usp=sharing)
