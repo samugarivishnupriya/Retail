@@ -1,0 +1,6 @@
+"mtry","trees","min_n",".metric",".estimator","mean","n","std_err",".config"
+5,255,10,"roc_auc","binary",0.845748726285147,5,0.00728388564237874,"Preprocessor1_Model22"
+5,500,2,"roc_auc","binary",0.845263880192694,5,0.00722554149895386,"Preprocessor1_Model07"
+17,500,10,"roc_auc","binary",0.844230096138815,5,0.00552264338954821,"Preprocessor1_Model26"
+5,255,2,"roc_auc","binary",0.844170692947122,5,0.00712032769891616,"Preprocessor1_Model04"
+17,255,10,"roc_auc","binary",0.844157685101688,5,0.00518636040617117,"Preprocessor1_Model23"

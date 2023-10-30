@@ -1,0 +1,6 @@
+"cost_complexity","tree_depth","min_n",".metric",".estimator","mean","n","std_err",".config"
+1e-10,1,2,"roc_auc","binary",0.76706851589807,5,0.00847157156986762,"Preprocessor1_Model01"
+3.16227766016838e-06,1,2,"roc_auc","binary",0.76706851589807,5,0.00847157156986762,"Preprocessor1_Model02"
+0.1,1,2,"roc_auc","binary",0.76706851589807,5,0.00847157156986762,"Preprocessor1_Model03"
+0.1,8,2,"roc_auc","binary",0.76706851589807,5,0.00847157156986762,"Preprocessor1_Model06"
+0.1,15,2,"roc_auc","binary",0.76706851589807,5,0.00847157156986762,"Preprocessor1_Model09"
